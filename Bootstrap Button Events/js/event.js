@@ -8,12 +8,12 @@ btnTwo.addEventListener('dblclick', function(e){
     e.target.style.border = "4px dotted #ec8f6a";
 });
 
-let btnThree = object.getElementById('onmouseover');
+let btnThree = document.getElementById('onmouseover');
 btnThree.addEventListener('mouseover', function(ev){
     ev.target.style.border = "green";
 });
 
 let btnFour = document.getElementById('onmouseup');
 btnFour.addEventListener('mouseup', function(eve){
-    eve.target.style.border = "blue";
+    eve.target.style.border = "2px solid blue";
 });
